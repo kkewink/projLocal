@@ -1,0 +1,17 @@
+[
+    {
+    "nome": "São Paulo", 
+    "sigla": "SP",
+    "bairro": "Lapa"
+} ,
+{
+    "nome": "Rio de Janeiro", 
+    "sigla": "RJ",
+    "bairro": "Flamengo" 
+} ,
+{
+    "nome": "Minas Gerais", 
+    "sigla": "MG",
+    "bairro": "Belo Horizonte" 
+}  
+]

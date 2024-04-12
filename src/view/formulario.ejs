@@ -1,0 +1,24 @@
+<%- include('partials/header') %>
+<main class="o-main">
+    <fieldset class="estilo_form">
+        <legend id="estilo_legenda">Envie uma mensagem preenchendo o formulário abaixo</legend>
+        <form method="get">
+          <label for="nome">Nome da Cidade</label>
+          <input type="text" id="txtNome" name="nome" placeholder="Digite o nome da cidade.." required>
+     
+          <label for="email">Sigla Cidade</label>
+          <select id="txtCidade" name="cidade" required>
+            <option value="são_paulo">SP</option>
+            <option value="rj">RJ</option>
+            <option value="bh">BH</option>
+          </select>
+     
+          <label for="email">Bairro</label>
+          <input type="text" id="txtBairro" name="bairro" placeholder="Digite o bairro" required>
+
+          </select>
+          <input type="submit" value="Enviar">
+        </form>
+      </fieldset>
+</main>
+<%-include('partials/footer') %></form>
