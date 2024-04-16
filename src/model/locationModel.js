@@ -34,7 +34,12 @@ static async writeLocationToFile(location) {
 static async getAllLocation() {
     const location = await this.getLocation();
     return location;
-} 
+}
+
+static async getnewlocation(){
+    const location = await this.getAllLocation();
+    return location;
+}
 }
 
 

@@ -32,4 +32,10 @@ try {
 } catch (err) {
     res.status(500).json({ error: err.toString() });
 }
+
+exports.getnewcontact = async (req, res) =>{
+    
+}
+
+
 };
